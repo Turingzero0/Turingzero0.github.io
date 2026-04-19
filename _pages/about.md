@@ -3,56 +3,48 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<h2 id="about-me" style="scroll-margin-top: 90px;">About Me</h2>
 
-<span class='anchor' id='about-me'></span>
+Hi! I am {{ site.author.name }}, an undergraduate student at ShanghaiTech University starting from Fall 2023, majoring in Computer Science and Technology. My research interests lie in natural language processing (NLP), with a particular focus on alignment and post-training for LLMs.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+<h2 id="news" style="scroll-margin-top: 90px;">News</h2>
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+- 2026.04: [Rethinking OPD](https://arxiv.org/abs/2604.13016) is released at arXiv and ranks #2 on [Hugging Face Daily Papers](https://huggingface.co/papers/date/2026-04-15) [[Code]](https://github.com/thunlp/OPD)
+- 2026.03: [DeepPrune](https://arxiv.org/abs/2510.08483) is accepted to **Findings of ACL 2026** [[Code]](https://github.com/THU-KEG/DeepPrune)
 
+<h2 id="publications" style="scroll-margin-top: 90px;">Publications</h2>
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+(* denotes equal/core contribution, &dagger; denotes project lead)
 
-# 📝 Publications 
+- [Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe](https://arxiv.org/abs/2604.13016)  
+  **Yaxuan Li**\*, Yuxin Zuo\*&dagger;, Bingxiang He\*&dagger;, Jinqian Zhang, Chaojun Xiao, Cheng Qian, Tianyu Yu, Huan-ang Gao, Wenkai Yang, Zhiyuan Liu, Ning Ding  
+  *Preprint* [[GitHub]](https://github.com/thunlp/OPD)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- [DeepPrune: A Deep Reinforcement Learning Framework for Pruning Large Language Models](https://arxiv.org/abs/2510.08483)  
+  Shangqing Tu\*, **Yaxuan Li**\*, Yushi Bai, Lei Hou, Juanzi Li  
+  *Findings of ACL 2026* [[GitHub]](https://github.com/THU-KEG/DeepPrune)
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<h2 id="educations" style="scroll-margin-top: 90px;">Educations</h2>
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- Undergraduate student, ShanghaiTech University, Shanghai, China
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+<h2 id="research-experience" style="scroll-margin-top: 90px;">Research Experience</h2>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- Research Intern at [THUNLP](https://nlp.csai.tsinghua.edu.cn/), Tsinghua University, Oct. 2025 -- Present  
+  I work closely with [Bingxiang He](https://hbx-hbx.github.io/) under the supervision of [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). We systematically investigate the phenomenology and underlying mechanisms of both successful and failed on-policy distillation (OPD) in LLMs. Based on these findings, we propose two practical recipes to improve OPD performance and further show that dense reward signals are not a free lunch for OPD. This work resulted in our paper [Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe](https://arxiv.org/abs/2604.13016).
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- Research Intern at [THU-KEG](https://keg.cs.tsinghua.edu.cn/), Tsinghua University, Jun. 2025 -- Oct. 2025  
+  I work closely with [Shangqing Tu](https://shangqingtu.github.io/) under the supervision of [Prof. Juanzi Li](https://keg.cs.tsinghua.edu.cn/persons/ljz/). We develop DeepPrune, an efficient parallel reasoning framework for large language models that reduces redundancy in parallel Chain-of-Thought decoding. To achieve this, we design a judge model for predicting answer equivalence from partial reasoning traces and integrate it with a dynamic pruning algorithm to eliminate redundant paths while preserving answer diversity. Experimental results on challenging reasoning benchmarks demonstrate that DeepPrune substantially improves inference efficiency while maintaining competitive accuracy. This work resulted in our paper [DeepPrune: A Deep Reinforcement Learning Framework for Pruning Large Language Models](https://arxiv.org/abs/2510.08483), which is accepted to **Findings of ACL 2026**.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<h2 id="honors-and-awards" style="scroll-margin-top: 90px;">Honors and Awards</h2>
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- Outstanding Student at ShanghaiTech University Academic Year, 2023-2024
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<h2 id="invited-talks" style="scroll-margin-top: 90px;">Invited Talks</h2>
+
+- Talk title, venue, date
