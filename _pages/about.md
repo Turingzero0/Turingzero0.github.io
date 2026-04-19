@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<h2 id="about-me" style="scroll-margin-top: 90px;">👤 About Me</h2>
+<h2 id="about-me" style="scroll-margin-top: 90px;">✨ About Me</h2>
 
 Hi! I am {{ site.author.name }}, an undergraduate student at ShanghaiTech University starting from Fall 2023, majoring in Computer Science and Technology. My research interests lie in natural language processing (NLP), with a particular focus on alignment and post-training for LLMs.
 
@@ -33,7 +33,7 @@ Hi! I am {{ site.author.name }}, an undergraduate student at ShanghaiTech Univer
 
 - Undergraduate student, ShanghaiTech University, Shanghai, China
 
-<h2 id="research-experience" style="scroll-margin-top: 90px;">🔬 Research Experience</h2>
+<h2 id="research-experience" style="scroll-margin-top: 90px;">🧪 Research Experience</h2>
 
 - Research Intern at [THUNLP](https://nlp.csai.tsinghua.edu.cn/), Tsinghua University, Oct. 2025 -- Present  
   I work closely with [Bingxiang He](https://hbx-hbx.github.io/) under the supervision of [Prof. Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/). We systematically investigate the phenomenology and underlying mechanisms of both successful and failed on-policy distillation (OPD) in LLMs. Based on these findings, we propose two practical recipes to improve OPD performance and further show that dense reward signals are not a free lunch for OPD. This work resulted in our paper [Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe](https://arxiv.org/abs/2604.13016).
@@ -45,6 +45,6 @@ Hi! I am {{ site.author.name }}, an undergraduate student at ShanghaiTech Univer
 
 - Outstanding Student at ShanghaiTech University Academic Year, 2023-2024
 
-<h2 id="invited-talks" style="scroll-margin-top: 90px;">🎤 Invited Talks</h2>
+<h2 id="invited-talks" style="scroll-margin-top: 90px;">📣 Invited Talks</h2>
 
 - Talk title, venue, date
