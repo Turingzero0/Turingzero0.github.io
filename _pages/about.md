@@ -16,8 +16,8 @@ Hi! I am {{ site.author.name }}, an undergraduate student at ShanghaiTech Univer
 ## 📰 News
 {: #news style="scroll-margin-top: 90px;"}
 
-- 2026.04: 🎉[Rethinking OPD](https://arxiv.org/abs/2604.13016) is released at arXiv and ranks #2 on [Hugging Face Daily Papers](https://huggingface.co/papers/date/2026-04-15) [[Code]](https://github.com/thunlp/OPD)
-- 2026.03: 🎉[DeepPrune](https://arxiv.org/abs/2510.08483) is accepted to **Findings of ACL 2026** [[Code]](https://github.com/THU-KEG/DeepPrune)
+- 2026.04: 🎉 [Rethinking OPD](https://arxiv.org/abs/2604.13016) was posted on arXiv and ranked #2 on [Hugging Face Daily Papers](https://huggingface.co/papers/date/2026-04-15) [[Code]](https://github.com/thunlp/OPD)
+- 2026.03: 🎉 [DeepPrune](https://arxiv.org/abs/2510.08483) was accepted to Findings of ACL 2026 [[Code]](https://github.com/THU-KEG/DeepPrune)
 
 ## 📚 Publications
 {: #publications style="scroll-margin-top: 90px;"}
