@@ -107,3 +107,12 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.page__content {
+    p,
+    li,
+    dl {
+        font-size: 1.08em;
+        line-height: 1.65;
+    }
+}
