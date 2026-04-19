@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yaxuan Li"
-description              : "Yaxuan Li's academic portfolio"
+description              : "Undergraduate student at ShanghaiTech University"
 url                      : "https://turingzero0.github.io"
 repository               : "Turingzero0/Turingzero0.github.io"
 google_scholar_stats_use_cdn : true
@@ -24,9 +24,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yaxuan Li"
   avatar           : "images/preview.jpg"
-  bio              : "Undergraduate student at ShanghaiTech University"
+  # bio              : "Undergraduate student at ShanghaiTech University"
   location         : "Shanghai, China"
-  employer         : "ShanghaiTech University"
+  # employer         : "ShanghaiTech University"
   pubmed           : 
   googlescholar    :
   email            : "liyx12023@shanghaitech.edu.cn"
