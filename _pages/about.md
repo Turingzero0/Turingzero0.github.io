@@ -22,10 +22,10 @@ Hi! I am {{ site.author.name }}, an undergraduate student at ShanghaiTech Univer
 ## 📚 Publications
 {: #publications style="scroll-margin-top: 90px;"}
 
-(* denotes equal/core contribution, &dagger; denotes project lead)
+(* denotes equal/core contribution, <sup>&dagger;</sup> denotes project lead)
 
 - [Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe](https://arxiv.org/abs/2604.13016)  
-  **Yaxuan Li**\*, Yuxin Zuo\*&dagger;, Bingxiang He\*&dagger;, Jinqian Zhang, Chaojun Xiao, Cheng Qian, Tianyu Yu, Huan-ang Gao, Wenkai Yang, Zhiyuan Liu, Ning Ding  
+  **Yaxuan Li**\*, Yuxin Zuo\*<sup>&dagger;</sup>, Bingxiang He\*<sup>&dagger;</sup>, Jinqian Zhang, Chaojun Xiao, Cheng Qian, Tianyu Yu, Huan-ang Gao, Wenkai Yang, Zhiyuan Liu, Ning Ding  
   *Preprint* [[GitHub]](https://github.com/thunlp/OPD)
 
 - [DeepPrune: A Deep Reinforcement Learning Framework for Pruning Large Language Models](https://arxiv.org/abs/2510.08483)  
