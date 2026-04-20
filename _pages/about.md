@@ -51,7 +51,7 @@ Hi! I am {{ site.author.name }}, an undergraduate student at ShanghaiTech Univer
 
 - Outstanding Student at ShanghaiTech University Academic Year, 2023-2024
 
-## 📣 Invited Talks
+## 📢 Invited Talks
 {: #invited-talks style="scroll-margin-top: 90px;"}
 
 - Talk title, venue, date
